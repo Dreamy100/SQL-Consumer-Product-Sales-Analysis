@@ -96,7 +96,7 @@ sales_analysis/
 ```
 ## Remarks
 
-* This project demonstrates a structured approach to analytical problem-solving using SQL, with emphasis on:
+### This project demonstrates a structured approach to analytical problem-solving using SQL, with emphasis on:
 * Translating business questions into data queries
 * Building clear, maintainable analytical workflows
 * Generating insights that directly support decision-making
