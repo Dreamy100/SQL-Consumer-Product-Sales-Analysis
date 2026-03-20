@@ -55,7 +55,7 @@ sales_analysis/
 ```
 
 ---
-## ⚙️ Installation & Setup (PostgreSQL)
+## Installation & Setup (PostgreSQL)
 
 Follow these steps to set up and run the project locally:
 
@@ -112,7 +112,7 @@ These queries perform data cleaning, transformation, and exploratory data analys
 
 ---
 
-## 📁 Project Setup Notes
+## Project Setup Notes
 
 * All SQL scripts are modular and organized by purpose (schema, data loading, analysis)
 * The dataset is stored inside the `data/` folder
