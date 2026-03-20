@@ -172,4 +172,4 @@ These queries perform data cleaning, transformation, and exploratory data analys
 
 ## License
 
-### This project is licensed under the terms of the LICENSE file included in this repository
+This project is licensed under the terms of the LICENSE file included in this repository
