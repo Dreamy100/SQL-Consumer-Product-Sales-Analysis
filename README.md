@@ -178,7 +178,7 @@ These queries perform data cleaning, transformation, and exploratory data analys
 
 ### Revenue Contribution by Category
 
-![Dashboard](query_results/dashboard_overview.jpg)
+![Dashboard](query_results/categories_and_their_revenue_potential.png)
 
 #### Key Insights
 - **Top revenue drivers:** Packaged Food, Chocolates & Candies, Ice Cream & Desserts (~₹17.3M each)  
@@ -189,7 +189,7 @@ These queries perform data cleaning, transformation, and exploratory data analys
 
 ### Revenue Loss Due to Discounts
 
-![Dashboard](query_results/total_revenue_lost_due_to_discount.png)
+![Dashboard](query_results/total_revenue_loss_due_to_discount.png)
 
 #### Key Insights
 - **Highest loss:** Ice Cream & Desserts, Chocolates & Candies, Packaged Food (~₹1.67M each)  
