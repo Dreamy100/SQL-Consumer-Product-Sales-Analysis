@@ -1,4 +1,4 @@
---                                                 Data Exploration
+--                                     Data Exploration
 
 -- Counting the Rows
 SELECT COUNT(*) FROM customers;

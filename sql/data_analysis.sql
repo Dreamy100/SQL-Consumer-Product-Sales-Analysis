@@ -1,4 +1,4 @@
---                                                 Data Analysis
+--                                   Data Analysis
 
 -- Finding the Top 10 Most Expensive Products
 SELECT name, category, mrp
@@ -82,7 +82,7 @@ CASE
 WHEN total_available_quantity < 500 THEN 'low_quantity'
 WHEN total_available_quantity BETWEEN 500 AND 1000 THEN 'medium_quantity'
 ELSE 'sufficient'
-END
+END AS stock_status
 FROM (
     SELECT category,
     SUM(availableQuantity) AS total_available_quantity
@@ -100,8 +100,8 @@ WITH base_table AS(
 )
 SELECT category, avg_price,
 CASE
-WHEN avg_price > 16000 THEN 'high_price'
-WHEN avg_price BETWEEN 5000 AND 16000 THEN 'medium_price'
+WHEN avg_price > 160 THEN 'high_price'
+WHEN avg_price BETWEEN 100 AND 159 THEN 'medium_price'
 ELSE 'low_price'
 END AS price_metric
 FROM base_table
@@ -121,7 +121,7 @@ ORDER BY discount_percent DESC;
 -- Finding out how much Revenue is lost due to Discounts
 SELECT
 category,
-SUM((mrp - discountedSellingPrice) * quantity) AS total_discount_loss
+SUM((mrp - discountedSellingPrice) * quantity) AS total_revenue_loss
 FROM customers
 GROUP BY category;
 
