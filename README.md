@@ -10,7 +10,7 @@ The analysis is designed to reflect real-world analytical workflows used in data
 
 ##  Scope of Analysis
 
-* Revenue performance across product categories and individual SKUs
+* Revenue performance across product categories and Individual SKUs
 * Pricing and discount strategy evaluation
 * Inventory utilization and stock risk identification
 * Product-level and category-level performance benchmarking
